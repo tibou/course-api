@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GetCourseDetailsRequest
-	xmlns="http://devwhere.com/courses"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://devwhere.com/courses course-details.xsd">
-	<id>1</id>
-</GetCourseDetailsRequest>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+	<Body>
+		<GetCourseDetailsRequest
+			xmlns="http://devwhere.com/courses"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://devwhere.com/courses course-details.xsd">
+			<id>1</id>
+		</GetCourseDetailsRequest>
+	</Body>
+</Envelope>
